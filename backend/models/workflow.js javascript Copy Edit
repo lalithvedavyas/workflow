@@ -1,0 +1,9 @@
+const mongoose = require('mongoose');
+
+const workflowSchema = new mongoose.Schema({
+  name: String,
+  agents: [String],
+  scheduleTime: Date
+});
+
+module.exports = mongoose.model('Workflow', workflowSchema);
