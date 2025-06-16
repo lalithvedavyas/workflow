@@ -1,0 +1,15 @@
+workflow-manager/
+├── backend/
+│   ├── models/
+│   │   └── agent.js
+│   │   └── workflow.js
+│   ├── server.js
+│   ├── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   ├── package.json
+└── .gitignore
